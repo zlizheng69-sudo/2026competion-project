@@ -1,0 +1,33 @@
+# ---- 构建产物 ----
+build/
+mx.scratch/
+*.o
+*.obj
+*.elf
+*.bin
+*.hex
+*.map
+*.su
+
+# ---- CubeMX 中间文件 ----
+.mxproject
+*_bak.ioc
+
+# ---- IDE / 编辑器 / AI 工具配置（与本机环境绑定，不应进仓库）----
+.vscode/
+.settings/
+.claude/
+.clangd
+
+# ---- Python ----
+__pycache__/
+*.pyc
+
+# ---- 系统 ----
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# ---- 日志 / 备份 ----
+*.log
+*~
